@@ -1,0 +1,38 @@
+{
+    "chain_name": "warden",
+    "registry_name": "warden",
+    "api": [
+        {"provider": "Ryddd", "address": "https://testnet-api-warden.provewithryd.xyz"}
+    ],
+    "rpc": [
+        {"provider": "Ryddd", "address": "https://testnet-rpc-warden.provewithryd.xyz"}
+    ],
+    "grpc": [
+        {"provider": "Ryddd", "address": "https://testnet-grpc-warden.provewithryd.xyz"}
+    ],
+    "sdk_version": "0.50.7",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "warden",
+    "logo": "/logos/warden.png",
+    "assets": [
+        {
+            "base": "award",
+            "symbol": "WARD",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "/logos/warden.png"
+        }
+    ],
+    "fees": {
+        "fee_tokens": [
+            {
+                "denom": "award",
+                "fixed_min_gas_price": 20000,
+                "low_gas_price": 1,
+                "average_gas_price": 1,
+                "high_gas_price": 5
+            }
+        ]
+    }
+}
