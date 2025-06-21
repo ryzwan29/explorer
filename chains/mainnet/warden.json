@@ -1,7 +1,6 @@
 {
     "chain_name": "warden",
     "registry_name": "warden",
-    "bech32_prefix": "warden",
     "api": [
         {"provider": "Ryddd", "address": "https://testnet-api-warden.provewithryd.xyz"}
     ],
