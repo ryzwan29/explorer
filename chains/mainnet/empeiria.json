@@ -13,7 +13,7 @@
     "sdk_version": "0.50.7",
     "coin_type": "118",
     "min_tx_fee": "500",
-    "addr_prefix": "empeiria",
+    "addr_prefix": "empe",
     "logo": "/logos/empeiria.png",
     "assets": [
         {
