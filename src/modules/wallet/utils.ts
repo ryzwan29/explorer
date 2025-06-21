@@ -34,11 +34,11 @@ export function scanCompatibleAccounts(keys: LocalKey[]) {
   const available = [] as AccountEntry[]
   keys.forEach(wallet => {
     Object.values(dashboard.chains).forEach(chain => {
-      const { data } = fromBech32(wallet.cosmosAddress)
       available.push({
         chainName: chain.chainName,
         logo: chain.logo,
-        address: toBech32(chain.bech32Prefix, data),
+        // Ganti prefix doang, data tetap sama
+        address: wallet.cosmosAddress.replace(/^([a-z]+1)/, `${chain.bech32Prefix}1`),
         coinType: chain.coinType,
         compatiable: wallet.hdPath.indexOf(chain.coinType) > 0,
         endpoint: chain.endpoints.rest?.at(0)?.address
