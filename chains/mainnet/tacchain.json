@@ -1,0 +1,47 @@
+{
+  "chain_name": "tacchain",
+  "registry_name": "tacchain",
+  "api": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-api-tacchain.provewithryd.xyz"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-rpc-tacchain.provewithryd.xyz"
+    }
+  ],
+  "grpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-grpc-tacchain.provewithryd.xyz"
+    }
+  ],
+  "sdk_version": "0.50.13",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "tac",
+  "logo": "/logos/tacchain.jpg",
+  "assets": [
+    {
+      "base": "utac",
+      "symbol": "TAC",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/tacchain.jpg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "utac",
+        "fixed_min_gas_price": 20000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 5
+      }
+    ]
+  }
+}
