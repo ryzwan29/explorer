@@ -28,7 +28,7 @@
     {
       "base": "utac",
       "symbol": "TAC",
-      "exponent": 6,
+      "exponent": 18,
       "coingecko_id": "",
       "logo": "/logos/tacchain.jpg"
     }
