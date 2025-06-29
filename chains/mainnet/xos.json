@@ -1,0 +1,38 @@
+{
+    "chain_name": "xos",
+    "registry_name": "xos",
+    "api": [
+        { "provider": "Ryddd", "address": "https://testnet-api-xos.provewithryd.xyz" }
+    ],
+    "rpc": [
+        { "provider": "Ryddd", "address": "https://testnet-rpc-xos.provewithryd.xyz" }
+    ],
+    "grpc": [
+        { "provider": "Ryddd", "address": "https://testnet-grpc-xos.provewithryd.xyz" }
+    ],
+    "sdk_version": "0.50.0",
+    "coin_type": "60",
+    "min_tx_fee": "500",
+    "addr_prefix": "cosmos",
+    "logo": "/logos/xosd.png",
+    "assets": [
+        {
+            "base": "uxos",
+            "symbol": "XOS",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "/logos/xosd.png"
+        }
+    ],
+    "fees": {
+        "fee_tokens": [
+            {
+                "denom": "uxos",
+                "fixed_min_gas_price": 50000000000,
+                "low_gas_price": 50000000000,
+                "average_gas_price": 50000000000,
+                "high_gas_price": 100000000000
+            }
+        ]
+    }
+}
