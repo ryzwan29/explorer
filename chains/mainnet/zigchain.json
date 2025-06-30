@@ -17,9 +17,9 @@
   "logo": "/logos/zigchain.jpg",
   "assets": [
     {
-      "base": "azig",
+      "base": "uzig",
       "symbol": "ZIG",
-      "exponent": "18",
+      "exponent": "6",
       "coingecko_id": "",
       "logo": "/logos/zigchain.jpg"
     }
@@ -27,7 +27,7 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "azig",
+        "denom": "uzig",
         "fixed_min_gas_price": 20000,
         "low_gas_price": 1,
         "average_gas_price": 1,
