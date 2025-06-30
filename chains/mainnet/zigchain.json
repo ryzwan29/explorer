@@ -1,0 +1,38 @@
+{
+  "chain_name": "zigchain",
+  "registry_name": "zigchain",
+  "api": [
+    { "provider": "Ryddd", "address": "https://testnet-api-zigchain.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://testnet-rpc-zigchain.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://testnet-grpc-zigchain.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "60",
+  "min_tx_fee": "500",
+  "addr_prefix": "zig",
+  "logo": "/logos/zigchain.jpg",
+  "assets": [
+    {
+      "base": "azig",
+      "symbol": "ZIG",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/zigchain.jpg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "azig",
+        "fixed_min_gas_price": 20000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 5
+      }
+    ]
+  }
+}
