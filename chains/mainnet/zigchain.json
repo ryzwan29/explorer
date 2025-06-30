@@ -11,7 +11,7 @@
     { "provider": "Ryddd", "address": "https://testnet-grpc-zigchain.provewithryd.xyz" }
   ],
   "sdk_version": "0.50.7",
-  "coin_type": "60",
+  "coin_type": "118",
   "min_tx_fee": "500",
   "addr_prefix": "zig",
   "logo": "/logos/zigchain.jpg",
