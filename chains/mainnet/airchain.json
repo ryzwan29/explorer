@@ -1,0 +1,47 @@
+{
+  "chain_name": "airchain",
+  "registry_name": "airchain",
+  "api": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-api-airchain.provewithryd.xyz"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-rpc-airchain.provewithryd.xyz"
+    }
+  ],
+  "grpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-grpc-airchain.provewithryd.xyz"
+    }
+  ],
+  "sdk_version": "0.50.4",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "air",
+  "logo": "/logos/airchain.jpg",
+  "assets": [
+    {
+      "base": "uamf",
+      "symbol": "AMF",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/airchain.jpg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uamf",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 3
+      }
+    ]
+  }
+}
