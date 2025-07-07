@@ -1,0 +1,47 @@
+{
+  "chain_name": "safrochain",
+  "registry_name": "safrochain",
+  "api": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-api-safrochain.provewithryd.xyz"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-rpc-safrochain.provewithryd.xyz"
+    }
+  ],
+  "grpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-grpc-safrochain.provewithryd.xyz"
+    }
+  ],
+  "sdk_version": "0.50.4",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "addr_safro",
+  "logo": "/logos/safrochain.svg",
+  "assets": [
+    {
+      "base": "usaf",
+      "symbol": "SAF",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/safrochain.svg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "usaf",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 3
+      }
+    ]
+  }
+}
