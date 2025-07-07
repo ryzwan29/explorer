@@ -1,0 +1,47 @@
+{
+  "chain_name": "intento",
+  "registry_name": "intento",
+  "api": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-api-intento.provewithryd.xyz"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-rpc-intento.provewithryd.xyz"
+    }
+  ],
+  "grpc": [
+    {
+      "provider": "Ryddd",
+      "address": "https://testnet-grpc-intento.provewithryd.xyz"
+    }
+  ],
+  "sdk_version": "0.50.4",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "into",
+  "logo": "/logos/intento.jpg",
+  "assets": [
+    {
+      "base": "uinto",
+      "symbol": "INTO",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/intento.jpg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uinto",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 3
+      }
+    ]
+  }
+}
