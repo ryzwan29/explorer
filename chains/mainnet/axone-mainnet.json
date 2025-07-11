@@ -1,0 +1,38 @@
+{
+  "chain_name": "axone-mainnet",
+  "registry_name": "axone",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-axone.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-axone.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-axone.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "axone",
+  "logo": "/logos/axone.png",
+  "assets": [
+    {
+      "base": "uaxone",
+      "symbol": "AXONE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/axone.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uaxone",
+        "fixed_min_gas_price": 25000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}
