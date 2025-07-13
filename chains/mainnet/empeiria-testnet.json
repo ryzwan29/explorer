@@ -1,11 +1,13 @@
 {
-  "chain_name": "empeiria",
-  "registry_name": "empeiria",
+  "chain_name": "empeiria-testnet",
+  "registry_name": "empeiria-testnet",
   "api": [
-    {"provider": "Ryddd", "address": "https://testnet-api-empeiria.provewithryd.xyz"}
+    { "provider": "Ryddd", "address": "https://testnet-api-empeiria.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://rpc-testnet.empe.io" }
     ],
     "rpc": [
-      {"provider": "Ryddd", "address": "https://testnet-rpc-empeiria.provewithryd.xyz"}
+      {"provider": "Ryddd", "address": "https://testnet-rpc-empeiria.provewithryd.xyz"},
+      {"provider": "Official", "address": "https://lcd-testnet.empe.io/"}
     ],
     "grpc": [
       {"provider": "Ryddd", "address": "https://testnet-grpc-empeiria.provewithryd.xyz"}

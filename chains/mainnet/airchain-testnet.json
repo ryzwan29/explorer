@@ -1,23 +1,16 @@
 {
-  "chain_name": "airchain",
-  "registry_name": "airchain",
+  "chain_name": "airchain-testnet",
+  "registry_name": "airchain-testnet",
   "api": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-api-airchain.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-api-airchain.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://api-devnet.airchains.services" }
   ],
   "rpc": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-rpc-airchain.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-rpc-airchain.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://rpc-devnet.airchains.services" }
   ],
   "grpc": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-grpc-airchain.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-grpc-airchain.provewithryd.xyz" }
   ],
   "sdk_version": "0.50.4",
   "coin_type": "118",

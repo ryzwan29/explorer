@@ -1,11 +1,13 @@
 {
-  "chain_name": "zigchain",
-  "registry_name": "zigchain",
+  "chain_name": "zigchain-testnet",
+  "registry_name": "zigchain-testnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://testnet-api-zigchain.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://testnet-api-zigchain.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://testnet-api.zigchain.com" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://testnet-rpc-zigchain.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://testnet-rpc-zigchain.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://testnet-rpc.zigchain.com" }
   ],
   "grpc": [
     { "provider": "Ryddd", "address": "https://testnet-grpc-zigchain.provewithryd.xyz" }
