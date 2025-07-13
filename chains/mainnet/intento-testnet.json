@@ -1,6 +1,6 @@
 {
-  "chain_name": "intento",
-  "registry_name": "intento",
+  "chain_name": "intento-testnet",
+  "registry_name": "intento-testnet",
   "api": [
     {
       "provider": "Ryddd",

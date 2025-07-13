@@ -1,6 +1,6 @@
 {
-  "chain_name": "xos",
-  "registry_name": "xos",
+  "chain_name": "xos-testnet",
+  "registry_name": "xos-testnet",
   "api": [
     { "provider": "Ryddd", "address": "https://testnet-api-xos.provewithryd.xyz" }
   ],

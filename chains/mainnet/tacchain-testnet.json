@@ -1,6 +1,6 @@
 {
-  "chain_name": "tacchain",
-  "registry_name": "tacchain",
+  "chain_name": "tacchain-testnet",
+  "registry_name": "tacchain-testnet",
   "api": [
     {
       "provider": "Ryddd",
