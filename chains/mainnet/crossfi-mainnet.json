@@ -1,0 +1,39 @@
+{
+  "chain_name": "crossfi-mainnet",
+  "registry_name": "crossfi-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-crossfi.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-crossfi.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-crossfi.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.4",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "mx",
+  "logo": "/logos/crossfi.jpg",
+  "assets": [
+    {
+      "base": "mpx",
+      "name": "CrossFi",
+      "symbol": "MPX",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/crossfi.jpg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "xfi",
+        "fixed_min_gas_price": 2000000000000000,
+        "low_gas_price": 1000000000000000,
+        "average_gas_price": 2000000000000000,
+        "high_gas_price": 3000000000000000
+      }
+    ]
+  }
+}
