@@ -1,0 +1,41 @@
+{
+  "chain_name": "dhealth-mainnet",
+  "registry_name": "dhealth-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-dhealth.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api.dhealth.nodestake.org" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-dhealth.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc.dhealth.nodestake.org" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-dhealth.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://grpc.dhealth.nodestake.org:443" }
+  ],
+  "sdk_version": "0.47.10",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "dh",
+  "logo": "/logos/dhealth.png",
+  "assets": [
+    {
+      "base": "udhp",
+      "symbol": "DHL",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/dhealth.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "udhp",
+        "fixed_min_gas_price": 500,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.05,
+        "high_gas_price": 0.1
+      }
+    ]
+  }
+}

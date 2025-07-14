@@ -1,0 +1,41 @@
+{
+  "chain_name": "medas-mainnet",
+  "registry_name": "medas-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-medas.provewithryd.xyz" },
+    { "provider": "Vinjan", "address": "https://api-medas.vinjan.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://api-medas.provewithryd.xyz" },
+    { "provider": "Vinjan", "address": "https://rpc-medas.vinjan.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-medas.provewithryd.xyz" },
+    { "provider": "Vinjan", "address": "https://grpc-medas.vinjan.xyz" }
+  ],
+  "sdk_version": "0.47.10",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "medas",
+  "logo": "/logos/medas.png",
+  "assets": [
+    {
+      "base": "umedas",
+      "symbol": "MEDAS",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/medas.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "umedas",
+        "fixed_min_gas_price": 500,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.05,
+        "high_gas_price": 0.1
+      }
+    ]
+  }
+}
