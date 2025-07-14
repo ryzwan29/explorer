@@ -20,7 +20,15 @@
       "base": "mpx",
       "name": "CrossFi",
       "symbol": "MPX",
-      "exponent": "18",
+      "exponent": 18,
+      "coingecko_id": "",
+      "logo": "/logos/crossfi.jpg"
+    },
+    {
+      "base": "xfi",
+      "name": "CrossFi EVM Token",
+      "symbol": "XFI",
+      "exponent": 18,
       "coingecko_id": "",
       "logo": "/logos/crossfi.jpg"
     }
