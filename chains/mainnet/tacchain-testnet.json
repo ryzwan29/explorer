@@ -2,22 +2,16 @@
   "chain_name": "tacchain-testnet",
   "registry_name": "tacchain-testnet",
   "api": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-api-tacchain.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-api-tacchain.provewithryd.xyz" },
+    { "provider": "Vinjan", "address": "https://api-test.tacchain.vinjan.xyz" }
   ],
   "rpc": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-rpc-tacchain.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-rpc-tacchain.provewithryd.xyz" },
+    { "provider": "Vinjan", "address": "https://rpc-test.tacchain.vinjan.xyz" }
   ],
   "grpc": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-grpc-tacchain.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-grpc-tacchain.provewithryd.xyz" },
+    { "provider": "Vinjan", "address": "https://grpc-test.tacchain.vinjan.xyz/" }
   ],
   "sdk_version": "0.50.13",
   "coin_type": "118",
