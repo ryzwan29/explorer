@@ -17,14 +17,14 @@
   "coin_type": "118",
   "min_tx_fee": "500",
   "addr_prefix": "addr_safro",
-  "logo": "/logos/safrochain.svg",
+  "logo": "/logos/safrochain.jpg",
   "assets": [
     {
       "base": "usaf",
       "symbol": "SAF",
       "exponent": 6,
       "coingecko_id": "",
-      "logo": "/logos/safrochain.svg"
+      "logo": "/logos/safrochain.jpg"
     }
   ],
   "fees": {
