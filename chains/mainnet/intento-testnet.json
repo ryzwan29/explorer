@@ -2,22 +2,16 @@
   "chain_name": "intento-testnet",
   "registry_name": "intento-testnet",
   "api": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-api-intento.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-api-intento.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api-t.intento.nodestake.org" }
   ],
   "rpc": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-rpc-intento.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-rpc-intento.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc-t.intento.nodestake.org" }
   ],
   "grpc": [
-    {
-      "provider": "Ryddd",
-      "address": "https://testnet-grpc-intento.provewithryd.xyz"
-    }
+    { "provider": "Ryddd", "address": "https://testnet-grpc-intento.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://grpc-t.intento.nodestake.org:443" }
   ],
   "sdk_version": "0.50.4",
   "coin_type": "118",
