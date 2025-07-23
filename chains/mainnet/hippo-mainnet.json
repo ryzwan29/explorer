@@ -1,0 +1,44 @@
+{
+  "chain_name": "hippo-mainnet",
+  "registry_name": "hippo-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-hippo.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api.hippo.nodestake.org" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-hippo.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc.hippo.nodestake.org" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-hippo.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://grpc.hippo.nodestake.org:443" }
+  ],
+  "sdk_version": "0.50.13",
+  "coin_type": "118",
+  "min_tx_fee": "500000000000000000", 
+  "addr_prefix": "hippo",
+  "logo": "/logos/hippo.png",
+  "assets": [
+    {
+      "base": "ahp",
+      "symbol": "HP",
+      "name": "Hippo Protocol",
+      "display": "hp",
+      "description": "Native token of Hippo Protocol",
+      "exponent": 18,
+      "coingecko_id": "",
+      "logo": "/logos/hippo.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ahp",
+        "fixed_min_gas_price": 500000000000000000,
+        "low_gas_price": 100000000000000000,
+        "average_gas_price": 300000000000000000,
+        "high_gas_price": 500000000000000000
+      }
+    ]
+  }
+}
