@@ -1,0 +1,48 @@
+{
+  "chain_name": "pryzm-mainnet",
+  "registry_name": "pryzm-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-pryzm.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api.pryzm.nodestake.org" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://api-pryzm.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc.pryzm.nodestake.org" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-pryzm.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://grpc.pryzm.nodestake.org" }
+  ],
+  "sdk_version": "0.47.10",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "pryzm",
+  "logo": "/logos/pryzm.png",
+  "assets": [
+    {
+      "base": "upryzm",
+      "symbol": "PRYZM",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/pryzm.png"
+    },
+    {
+      "base": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
+      "symbol": "UAUUU",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/uauuu.svg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "factory/pryzm1jnhcsa5ddjsjq2t97v6a82z542rduxvtw6wd9h/uauuu",
+        "fixed_min_gas_price": 500,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.05,
+        "high_gas_price": 0.1
+      }
+    ]
+  }
+}
