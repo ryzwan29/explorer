@@ -20,7 +20,7 @@
       "base": "ubadge",
       "name": "BitBadges",
       "symbol": "BADGE",
-      "exponent": "18",
+      "exponent": "9",
       "coingecko_id": "",
       "logo": "/logos/bitbadges.jpg"
     }
