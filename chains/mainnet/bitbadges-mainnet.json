@@ -1,0 +1,39 @@
+{
+  "chain_name": "bitbadges-mainnet",
+  "registry_name": "bitbadges-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-bitbadges.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-bitbadges.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-bitbadges.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "badges",
+  "logo": "/logos/bitbadges.jpg",
+  "assets": [
+    {
+      "base": "ubadge",
+      "name": "BitBadges",
+      "symbol": "BADGE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/bitbadges.jpg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ubadge",
+        "fixed_min_gas_price": 100000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}

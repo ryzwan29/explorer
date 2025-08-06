@@ -1,0 +1,39 @@
+{
+  "chain_name": "bitsong-mainnet",
+  "registry_name": "bitsong-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-bitsong.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-bitsong.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-bitsong.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "639",
+  "min_tx_fee": "500",
+  "addr_prefix": "btsg",
+  "logo": "/logos/bitsong.png",
+  "assets": [
+    {
+      "base": "ubtsg",
+      "name": "BitSong",
+      "symbol": "BTSG",
+      "exponent": "6",
+      "coingecko_id": "bitsong",
+      "logo": "/logos/bitsong.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ubtsg",
+        "fixed_min_gas_price": 690,
+        "low_gas_price": 0.0005,
+        "average_gas_price": 0.00069,
+        "high_gas_price": 0.001
+      }
+    ]
+  }
+}

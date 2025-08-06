@@ -1,0 +1,39 @@
+{
+  "chain_name": "omniflix-mainnet",
+  "registry_name": "omniflix-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-omniflix.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-omniflix.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-omniflix.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "omniflix",
+  "logo": "/logos/omniflix.webp",
+  "assets": [
+    {
+      "base": "uflix",
+      "name": "Omniflix",
+      "symbol": "FLIX",
+      "exponent": "6",
+      "coingecko_id": "omniflix-network",
+      "logo": "/logos/omniflix.webp"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uflix",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}
