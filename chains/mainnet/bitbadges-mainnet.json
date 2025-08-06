@@ -13,14 +13,14 @@
   "sdk_version": "0.50.7",
   "coin_type": "118",
   "min_tx_fee": "500",
-  "addr_prefix": "badges",
+  "addr_prefix": "bb",
   "logo": "/logos/bitbadges.jpg",
   "assets": [
     {
       "base": "ubadge",
       "name": "BitBadges",
       "symbol": "BADGE",
-      "exponent": "6",
+      "exponent": "0",
       "coingecko_id": "",
       "logo": "/logos/bitbadges.jpg"
     }
