@@ -1,0 +1,39 @@
+{
+  "chain_name": "dungeon-mainnet",
+  "registry_name": "dungeon-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-dungeon.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-dungeon.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-dungeon.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "dungeon",
+  "logo": "/logos/dungeon.png",
+  "assets": [
+    {
+      "base": "udgn",
+      "name": "Dungeonchain",
+      "symbol": "DGN",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/dungeon.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "udgn",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}
