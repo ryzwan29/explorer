@@ -2,13 +2,16 @@
   "chain_name": "bitbadges-mainnet",
   "registry_name": "bitbadges-mainnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://api-bitbadges.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://api-bitbadges.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://node.bitbadges.io/api/" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://rpc-bitbadges.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://rpc-bitbadges.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://node.bitbadges.io/rpc/" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://grpc-bitbadges.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://grpc-bitbadges.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://node.bitbadges.io/grpc/" }
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",

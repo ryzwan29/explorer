@@ -2,13 +2,16 @@
   "chain_name": "dungeon-mainnet",
   "registry_name": "dungeon-mainnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://api-dungeon.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://api-dungeon.provewithryd.xyz" },
+    { "provider": "Quasar", "address": "https://dungeon-wallet.api.quasarstaking.ai" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://rpc-dungeon.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://rpc-dungeon.provewithryd.xyz" },
+    { "provider": "Quasar", "address": "https://dungeon-wallet.rpc.quasarstaking.ai" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://grpc-dungeon.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://grpc-dungeon.provewithryd.xyz" },
+    { "provider": "Quasar", "address": "https://dungeon-wallet.grpc.quasarstaking.ai/" }
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",
