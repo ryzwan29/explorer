@@ -17,9 +17,9 @@
   "logo": "/logos/sunrise.png",
   "assets": [
     {
-      "base": "urise",
-      "name": "Rise",
-      "symbol": "RISE",
+      "base": "uvrise",
+      "name": "vRise",
+      "symbol": "VRISE",
       "exponent": "6",
       "coingecko_id": "",
       "logo": "/logos/sunrise.png"
