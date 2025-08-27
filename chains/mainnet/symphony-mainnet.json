@@ -1,0 +1,39 @@
+{
+  "chain_name": "symphony-mainnet",
+  "registry_name": "symphony-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-symphony.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-symphony.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-symphony.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "symphony",
+  "logo": "/logos/symphony.jpeg",
+  "assets": [
+    {
+      "base": "unote",
+      "name": "Symphony",
+      "symbol": "MLD",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/symphony.jpeg"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "unote",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}
