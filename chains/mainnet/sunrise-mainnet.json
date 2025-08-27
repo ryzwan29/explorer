@@ -1,0 +1,39 @@
+{
+  "chain_name": "sunrise-mainnet",
+  "registry_name": "sunrise-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-sunrise.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-sunrise.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-sunrise.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "sunrise",
+  "logo": "/logos/sunrise.png",
+  "assets": [
+    {
+      "base": "urise",
+      "name": "Rise",
+      "symbol": "RISE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/sunrise.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uusdrise",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}
