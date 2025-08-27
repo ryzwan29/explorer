@@ -23,6 +23,22 @@
       "exponent": "6",
       "coingecko_id": "",
       "logo": "/logos/sunrise.png"
+    },
+    {
+      "base": "urise",
+      "name": "Rise",
+      "symbol": "RISE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/sunrise.png"
+    },
+    {
+      "base": "uusdrise",
+      "name": "USDrise",
+      "symbol": "USDrise",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/sunrise.png"
     }
   ],
   "fees": {
