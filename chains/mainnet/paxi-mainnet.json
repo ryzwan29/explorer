@@ -1,0 +1,42 @@
+{
+  "chain_name": "paxi-mainnet",
+  "registry_name": "paxi-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-paxi.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://mainnet-lcd.paxinet.io" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-paxi.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://mainnet-rpc.paxinet.io" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-paxi.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://mainnet-grpc.paxinet.io" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "paxi",
+  "logo": "/logos/paxi.png",
+  "assets": [
+    {
+      "base": "upaxi",
+      "name": "PAXI",
+      "symbol": "PAXI",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/paxi.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "upaxi",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}

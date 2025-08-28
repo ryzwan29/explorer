@@ -2,13 +2,16 @@
   "chain_name": "sunrise-mainnet",
   "registry_name": "sunrise-mainnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://api-sunrise.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://api-sunrise.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api.sunrise.nodestake.org" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://rpc-sunrise.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://rpc-sunrise.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc.sunrise.nodestake.org" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://grpc-sunrise.provewithryd.xyz" }
+    { "provider": "Ryddd", "address": "https://grpc-sunrise.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://grpc.sunrise.nodestake.org" }
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",
