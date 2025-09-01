@@ -18,7 +18,7 @@
   "assets": [
     {
       "base": "uflix",
-      "name": "Omniflix",
+      "name": "FLIX",
       "symbol": "FLIX",
       "exponent": "6",
       "coingecko_id": "omniflix-network",

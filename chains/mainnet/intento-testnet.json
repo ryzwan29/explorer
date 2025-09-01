@@ -21,6 +21,7 @@
   "assets": [
     {
       "base": "uinto",
+      "name": "INTO",
       "symbol": "INTO",
       "exponent": 6,
       "coingecko_id": "",

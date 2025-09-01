@@ -21,11 +21,9 @@
   "assets": [
     {
       "base": "ahp",
+      "name": "HP",
       "symbol": "HP",
-      "name": "Hippo Protocol",
-      "display": "hp",
-      "description": "Native token of Hippo Protocol",
-      "exponent": 18,
+      "exponent": "18",
       "coingecko_id": "",
       "logo": "/logos/hippo.png"
     }

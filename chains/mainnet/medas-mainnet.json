@@ -21,6 +21,7 @@
   "assets": [
     {
       "base": "umedas",
+      "name": "MEDAS",
       "symbol": "MEDAS",
       "exponent": 6,
       "coingecko_id": "",

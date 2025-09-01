@@ -18,7 +18,7 @@
   "assets": [
     {
       "base": "ubtsg",
-      "name": "BitSong",
+      "name": "BTSG",
       "symbol": "BTSG",
       "exponent": "6",
       "coingecko_id": "bitsong",

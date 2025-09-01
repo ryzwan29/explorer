@@ -21,7 +21,7 @@
   "assets": [
     {
       "base": "ubadge",
-      "name": "BitBadges",
+      "name": "BADGE",
       "symbol": "BADGE",
       "exponent": "9",
       "coingecko_id": "",

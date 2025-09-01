@@ -21,6 +21,7 @@
   "assets": [
     {
       "base": "udhp",
+      "name": "DHL",
       "symbol": "DHL",
       "exponent": 6,
       "coingecko_id": "",

@@ -21,6 +21,7 @@
   "assets": [
     {
       "base": "usaf",
+      "name": "SAF",
       "symbol": "SAF",
       "exponent": 6,
       "coingecko_id": "",
