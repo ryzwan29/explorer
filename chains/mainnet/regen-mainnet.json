@@ -24,7 +24,7 @@
       "base": "uregen",
       "name": "REGEN",
       "symbol": "REGEN",
-      "exponent": "8",
+      "exponent": "6",
       "coingecko_id": "",
       "logo": "/logos/regen.png"
     }
