@@ -3,15 +3,15 @@
     "registry_name": "warden-testnet",
     "api": [
         {"provider": "Ryddd", "address": "https://testnet-api-warden.provewithryd.xyz"},
-        {"provider": "Official", "address": "https://api.chiado.wardenprotocol.org"}
+        {"provider": "Official", "address": "https://api.barra.wardenprotocol.org"}
     ],
     "rpc": [
         {"provider": "Ryddd", "address": "https://testnet-rpc-warden.provewithryd.xyz"},
-        {"provider": "Official", "address": "https://rpc.chiado.wardenprotocol.org"}
+        {"provider": "Official", "address": "https://rpc.barra.wardenprotocol.org"}
     ],
     "grpc": [
         {"provider": "Ryddd", "address": "https://testnet-grpc-warden.provewithryd.xyz"},
-        {"provider": "Official", "address": "https://grpc.chiado.wardenprotocol.org"}
+        {"provider": "Official", "address": "https://grpc.barra.wardenprotocol.org"}
     ],
     "sdk_version": "0.50.7",
     "coin_type": "118",

@@ -1,0 +1,43 @@
+{
+  "chain_name": "regen-mainnet",
+  "registry_name": "regen-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-regen.provewithryd.xyz" },
+    { "provider": "Official 3Party", "address": "http://archive.regen.network:1317" },
+    { "provider": "PublicNode", "address": "https://regen-rest.publicnode.com" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-regen.provewithryd.xyz" },
+    { "provider": "Official 3Party", "address": "http://archive.regen.network:26657" },
+    { "provider": "PublicNode", "address": "https://regen-rpc.publicnode.com" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-regen.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "regen",
+  "logo": "/logos/regen.png",
+  "assets": [
+    {
+      "base": "uregen",
+      "name": "REGEN",
+      "symbol": "REGEN",
+      "exponent": "8",
+      "coingecko_id": "",
+      "logo": "/logos/regen.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uregen",
+        "fixed_min_gas_price": 1000000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}

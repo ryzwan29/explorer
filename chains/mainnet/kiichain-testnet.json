@@ -1,0 +1,41 @@
+{
+  "chain_name": "kiichain-testnet",
+  "registry_name": "kiichain-testnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://testnet-api-kiichain.provewithryd.xyz" },
+    { "provider": "Official", "address": "https://lcd.uno.sentry.testnet.v3.kiivalidator.com" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://testnet-rpc-kiichain.provewithryd.xyz" },
+    { "provider": "Official", "address": "ttps://rpc.uno.sentry.testnet.v3.kiivalidator.com" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://testnet-grpc-kiichain.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "kii",
+  "logo": "/logos/kiichain.png",
+  "assets": [
+    {
+      "base": "akii",
+      "name": "KII",
+      "symbol": "KII",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/kiichain.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "akii",
+        "fixed_min_gas_price": 1000000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}

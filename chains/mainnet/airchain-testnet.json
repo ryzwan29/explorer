@@ -3,11 +3,13 @@
   "registry_name": "airchain-testnet",
   "api": [
     { "provider": "Ryddd", "address": "https://testnet-api-airchain.provewithryd.xyz" },
-    { "provider": "Official", "address": "https://api-devnet.airchains.services" }
+    { "provider": "Official", "address": "https://api-devnet.airchains.services" },
+    { "provider": "Sychonix", "address": "https://api-airchains-t.sychonix.com" }
   ],
   "rpc": [
     { "provider": "Ryddd", "address": "https://testnet-rpc-airchain.provewithryd.xyz" },
-    { "provider": "Official", "address": "https://rpc-devnet.airchains.services" }
+    { "provider": "Official", "address": "https://rpc-devnet.airchains.services" },
+    { "provider": "Sychonix", "address": "https://rpc-airchains-t.sychonix.com" }
   ],
   "grpc": [
     { "provider": "Ryddd", "address": "https://testnet-grpc-airchain.provewithryd.xyz" }
