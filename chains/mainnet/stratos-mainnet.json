@@ -1,0 +1,50 @@
+{
+  "chain_name": "stratos-mainnet",
+  "registry_name": "stratos-mainnet",
+
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-stratos.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-stratos.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-stratos.provewithryd.xyz" }
+  ],
+  "evm": [
+    { "provider": "Ryddd", "address": "https://evm-stratos.provewithryd.xyz" }
+  ],
+  "wss": [
+    { "provider": "Ryddd", "address": "wss://wss-stratos.provewithryd.xyz" }
+  ],
+
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "evm_chain_id": "2048",
+  "min_tx_fee": "500",
+  "addr_prefix": "st",
+  "logo": "/logos/stratos.png",
+
+  "assets": [
+    {
+      "base": "wei",
+      "symbol": "STOS",
+      "display": "STOS",
+      "exponent": 18,
+      "logo": "/logos/stratos.png"
+    }
+  ],
+
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "wei",
+        "symbol": "STOS",
+        "fixed_min_gas_price": 1000000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}
