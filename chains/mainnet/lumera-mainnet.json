@@ -1,0 +1,39 @@
+{
+  "chain_name": "lumera-mainnet",
+  "registry_name": "lumera-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-lumera.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-lumera.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-lumera.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.4",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "lume",
+  "logo": "/logos/lumera.png",
+  "assets": [
+    {
+      "base": "ulume",
+      "name": "LUME",
+      "symbol": "LUME",
+      "exponent": 6,
+      "coingecko_id": "",
+      "logo": "/logos/lumera.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ulume",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 3
+      }
+    ]
+  }
+}
