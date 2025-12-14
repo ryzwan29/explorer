@@ -1,0 +1,41 @@
+{
+  "chain_name": "milkway-mainnet",
+  "registry_name": "milkway-mainnet",
+  "api": [
+    { "provider": "Polkachu", "address": "https://milkyway-api.polkachu.com" },
+    { "provider": "Ryddd29", "address": "https://api-milkyway.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Polkachu", "address": "https://milkyway-rpc.polkachu.com" },
+    { "provider": "Ryddd29", "address": "https://rpc-milkyway.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Polkachu", "address": "milkyway-grpc.polkachu.com:31990" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "milk",
+  "logo": "/logos/milkyway.png",
+  "assets": [
+    {
+      "base": "umilk",
+      "name": "MILK",
+      "symbol": "MILK",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/milkyway.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "umilk",
+        "fixed_min_gas_price": 20000,
+        "low_gas_price": 1,
+        "average_gas_price": 1,
+        "high_gas_price": 5
+      }
+    ]
+  }
+}
