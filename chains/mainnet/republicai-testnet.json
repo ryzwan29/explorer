@@ -4,11 +4,11 @@
 
   "api": [
     { "provider": "Ryddd", "address": "https://testnet-api-republic.provewithryd.xyz" },
-    { "provider": "NodeStake", "address": "https://rpc-t.republicai.nodestake.org" }
+    { "provider": "NodeStake", "address": "https://api-t.republicai.nodestake.org" }
   ],
   "rpc": [
     { "provider": "Ryddd", "address": "https://testnet-rpc-republic.provewithryd.xyz" },
-    { "provider": "NodeStake", "address": "https://api-t.republicai.nodestake.org" }
+    { "provider": "NodeStake", "address": "https://rpc-t.republicai.nodestake.org" }
   ],
   "grpc": [
     { "provider": "Ryddd", "address": "https://testnet-grpc-republic.provewithryd.xyz" }
