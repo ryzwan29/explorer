@@ -1,0 +1,52 @@
+{
+  "chain_name": "republicai-testnet",
+  "registry_name": "republicai-testnet",
+
+  "api": [
+    { "provider": "Ryddd", "address": "https://testnet-api-republic.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc-t.republicai.nodestake.org" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://testnet-rpc-republic.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api-t.republicai.nodestake.org" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://testnet-grpc-republic.provewithryd.xyz" }
+  ],
+  "evm": [
+    { "provider": "Ryddd", "address": "https://testnet-evm-republic.provewithryd.xyz" }
+  ],
+  "wss": [
+    { "provider": "Ryddd", "address": "wss://testnet-wss-republic.provewithryd.xyz" }
+  ],
+
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "evm_chain_id": "1010",
+  "min_tx_fee": "500",
+  "addr_prefix": "rai",
+  "logo": "/logos/republicai.jpg",
+
+  "assets": [
+    {
+      "base": "arai",
+      "symbol": "RAI",
+      "display": "RAI",
+      "exponent": 18,
+      "logo": "/logos/republicai.jpg"
+    }
+  ],
+
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "araii",
+        "symbol": "RAI",
+        "fixed_min_gas_price": 1000000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}

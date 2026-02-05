@@ -1,0 +1,39 @@
+{
+  "chain_name": "lumen-mainnet",
+  "registry_name": "lumen-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-lumen.provewithryd.xyz" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-lumen.provewithryd.xyz" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-lumen.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "lmn",
+  "logo": "/logos/lumen.png",
+  "assets": [
+    {
+      "base": "ulmn",
+      "name": "LMN",
+      "symbol": "LMN",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/lumen.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ulmn",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}

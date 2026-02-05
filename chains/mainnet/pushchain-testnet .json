@@ -1,0 +1,52 @@
+{
+  "chain_name": "pushchain-testnet",
+  "registry_name": "pushchain-testnet",
+
+  "api": [
+    { "provider": "Ryddd", "address": "https://testnet-api-pushchain.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc-t.pushchain.nodestake.org" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://testnet-rpc-pushchain.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api-t.pushchain.nodestake.org" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://testnet-grpc-pushchain.provewithryd.xyz" }
+  ],
+  "evm": [
+    { "provider": "Ryddd", "address": "https://testnet-evm-pushchain.provewithryd.xyz" }
+  ],
+  "wss": [
+    { "provider": "Ryddd", "address": "wss://testnet-wss-pushchain.provewithryd.xyz" }
+  ],
+
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "evm_chain_id": "1010",
+  "min_tx_fee": "500",
+  "addr_prefix": "push",
+  "logo": "/logos/pushchain.jpg",
+
+  "assets": [
+    {
+      "base": "upc",
+      "symbol": "PC",
+      "display": "PC",
+      "exponent": 18,
+      "logo": "/logos/pushchain.jpg"
+    }
+  ],
+
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "upc",
+        "symbol": "PC",
+        "fixed_min_gas_price": 1000000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}
