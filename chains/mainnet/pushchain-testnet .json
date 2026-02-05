@@ -4,11 +4,11 @@
 
   "api": [
     { "provider": "Ryddd", "address": "https://testnet-api-pushchain.provewithryd.xyz" },
-    { "provider": "NodeStake", "address": "https://rpc-t.pushchain.nodestake.org" }
+    { "provider": "NodeStake", "address": "https://api-t.pushchain.nodestake.org" }
   ],
   "rpc": [
     { "provider": "Ryddd", "address": "https://testnet-rpc-pushchain.provewithryd.xyz" },
-    { "provider": "NodeStake", "address": "https://api-t.pushchain.nodestake.org" }
+    { "provider": "NodeStake", "address": "https://rpc-t.pushchain.nodestake.org" }
   ],
   "grpc": [
     { "provider": "Ryddd", "address": "https://testnet-grpc-pushchain.provewithryd.xyz" }
