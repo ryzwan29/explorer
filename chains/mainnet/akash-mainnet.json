@@ -1,0 +1,41 @@
+{
+  "chain_name": "akash-mainnet",
+  "registry_name": "akash-mainnet",
+  "api": [
+    { "provider": "Ryddd", "address": "https://api-akash.provewithryd.xyz" },
+    { "provider": "PublicNode", "address": "https://akash-rest.publicnode.com" }
+  ],
+  "rpc": [
+    { "provider": "Ryddd", "address": "https://rpc-akash.provewithryd.xyz" },
+    { "provider": "PublicNode", "address": "https://akash-rpc.publicnode.com" }
+  ],
+  "grpc": [
+    { "provider": "Ryddd", "address": "https://grpc-akash.provewithryd.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "akash",
+  "logo": "/logos/akash.png",
+  "assets": [
+    {
+      "base": "uakt",
+      "name": "AKT",
+      "symbol": "AKT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/akash.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uakt",
+        "fixed_min_gas_price": 8000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}
