@@ -3,21 +3,21 @@
   "registry_name": "pushchain-testnet",
 
   "api": [
-    { "provider": "Ryddd", "address": "https://testnet-api-pushchain.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://testnet-api-pushchain.rydone.xyz" },
     { "provider": "NodeStake", "address": "https://api-t.pushchain.nodestake.org" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://testnet-rpc-pushchain.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://testnet-rpc-pushchain.rydone.xyz" },
     { "provider": "NodeStake", "address": "https://rpc-t.pushchain.nodestake.org" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://testnet-grpc-pushchain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://testnet-grpc-pushchain.rydone.xyz" }
   ],
   "evm": [
-    { "provider": "Ryddd", "address": "https://testnet-evm-pushchain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://testnet-evm-pushchain.rydone.xyz" }
   ],
   "wss": [
-    { "provider": "Ryddd", "address": "wss://testnet-wss-pushchain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "wss://testnet-wss-pushchain.rydone.xyz" }
   ],
 
   "sdk_version": "0.50.7",

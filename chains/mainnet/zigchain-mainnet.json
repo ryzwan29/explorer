@@ -2,15 +2,15 @@
   "chain_name": "zigchain-mainnet",
   "registry_name": "zigchain-mainnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://api-zigchain.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://api-zigchain.rydone.xyz" },
     { "provider": "Official", "address": "https://api.zigchain.com" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://rpc-zigchain.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://rpc-zigchain.rydone.xyz" },
     { "provider": "Official", "address": "https://rpc.zigchain.com" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://grpc-zigchain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://grpc-zigchain.rydone.xyz" }
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",

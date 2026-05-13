@@ -2,15 +2,15 @@
   "chain_name": "empeiria-testnet",
   "registry_name": "empeiria-testnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://testnet-api-empeiria.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://testnet-api-empeiria.rydone.xyz" },
     { "provider": "Official", "address": "https://lcd-testnet.empe.io" }
   ],
   "rpc": [
-    {"provider": "Ryddd", "address": "https://testnet-rpc-empeiria.provewithryd.xyz"},
+    {"provider": "RydOne", "address": "https://testnet-rpc-empeiria.rydone.xyz"},
     {"provider": "Official", "address": "https://rpc-testnet.empe.io"}
   ],
   "grpc": [
-    {"provider": "Ryddd", "address": "https://testnet-grpc-empeiria.provewithryd.xyz"}
+    {"provider": "RydOne", "address": "https://testnet-grpc-empeiria.rydone.xyz"}
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",

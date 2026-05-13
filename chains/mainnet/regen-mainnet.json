@@ -2,17 +2,17 @@
   "chain_name": "regen-mainnet",
   "registry_name": "regen-mainnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://api-regen.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://api-regen.rydone.xyz" },
     { "provider": "Official 3Party", "address": "http://archive.regen.network:1317" },
     { "provider": "PublicNode", "address": "https://regen-rest.publicnode.com" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://rpc-regen.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://rpc-regen.rydone.xyz" },
     { "provider": "Official 3Party", "address": "http://archive.regen.network:26657" },
     { "provider": "PublicNode", "address": "https://regen-rpc.publicnode.com" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://grpc-regen.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://grpc-regen.rydone.xyz" }
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",

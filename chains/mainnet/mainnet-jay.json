@@ -1,0 +1,41 @@
+{
+  "chain_name": "jay-mainnet",
+  "registry_name": "jay-mainnet",
+  "api": [
+    { "provider": "RydOne", "address": "https://api-jay.rydone.xyz" },
+    { "provider": "OneNov", "address": "https://api-jay.onenov.xyz" }
+  ],
+  "rpc": [
+    { "provider": "RydOne", "address": "https://rpc-jay.rydone.xyz" },
+    { "provider": "OneNov", "address": "https://rpc-jay.onenov.xyz" }
+  ],
+  "grpc": [
+    { "provider": "RydOne", "address": "https://grpc-jay.rydone.xyz" }
+  ],
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "yjay",
+  "logo": "/logos/jay.png",
+  "assets": [
+    {
+      "base": "ujay",
+      "name": "JAY",
+      "symbol": "JAY",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/jay.png"
+    }
+  ],
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ujay",
+        "fixed_min_gas_price": 1000,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.005,
+        "high_gas_price": 0.01
+      }
+    ]
+  }
+}

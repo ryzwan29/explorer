@@ -3,21 +3,21 @@
   "registry_name": "kiichain-testnet",
 
   "api": [
-    { "provider": "Ryddd", "address": "https://testnet-api-kiichain.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://testnet-api-kiichain.rydone.xyz" },
     { "provider": "Official", "address": "https://lcd.uno.sentry.testnet.v3.kiivalidator.com" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://testnet-rpc-kiichain.provewithryd.xyz" },
+    { "provider": "RydOne", "address": "https://testnet-rpc-kiichain.rydone.xyz" },
     { "provider": "Official", "address": "https://rpc.uno.sentry.testnet.v3.kiivalidator.com" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://testnet-grpc-kiichain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://testnet-grpc-kiichain.rydone.xyz" }
   ],
   "evm": [
-    { "provider": "Ryddd", "address": "https://testnet-evm-kiichain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://testnet-evm-kiichain.rydone.xyz" }
   ],
   "wss": [
-    { "provider": "Ryddd", "address": "wss://testnet-wss-kiichain.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "wss://testnet-wss-kiichain.rydone.xyz" }
   ],
 
   "sdk_version": "0.50.7",

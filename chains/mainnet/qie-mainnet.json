@@ -1,0 +1,52 @@
+{
+  "chain_name": "qie-mainnet",
+  "registry_name": "qie-mainnet",
+
+  "api": [
+    { "provider": "RydOne", "address": "https://mainnet-api-qie.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://api.qie.onenov.xyz" }
+  ],
+  "rpc": [
+    { "provider": "RydOne", "address": "https://mainnet-rpc-qie.provewithryd.xyz" },
+    { "provider": "NodeStake", "address": "https://rpc.qie.onenov.xyz" }
+  ],
+  "grpc": [
+    { "provider": "RydOne", "address": "https://mainnet-grpc-qie.provewithryd.xyz" }
+  ],
+  "evm": [
+    { "provider": "RydOne", "address": "https://mainnet-evm-qie.provewithryd.xyz" }
+  ],
+  "wss": [
+    { "provider": "RydOne", "address": "wss://mainnet-wss-qie.provewithryd.xyz" }
+  ],
+
+  "sdk_version": "0.50.7",
+  "coin_type": "118",
+  "evm_chain_id": "1010",
+  "min_tx_fee": "500",
+  "addr_prefix": "qie",
+  "logo": "/logos/pushchain.jpg",
+
+  "assets": [
+    {
+      "base": "aqie",
+      "symbol": "QIE",
+      "display": "QIE",
+      "exponent": 18,
+      "logo": "/logos/qie.png"
+    }
+  ],
+
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "aqie",
+        "symbol": "QIE",
+        "fixed_min_gas_price": 1000000,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.05
+      }
+    ]
+  }
+}
