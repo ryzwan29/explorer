@@ -3,21 +3,21 @@
   "registry_name": "qie-mainnet",
 
   "api": [
-    { "provider": "RydOne", "address": "https://mainnet-api-qie.provewithryd.xyz" },
-    { "provider": "NodeStake", "address": "https://api.qie.onenov.xyz" }
+    { "provider": "RydOne", "address": "https://api-qie.rydone.xyz" },
+    { "provider": "OneNov", "address": "https://api.qie.onenov.xyz" }
   ],
   "rpc": [
-    { "provider": "RydOne", "address": "https://mainnet-rpc-qie.provewithryd.xyz" },
-    { "provider": "NodeStake", "address": "https://rpc.qie.onenov.xyz" }
+    { "provider": "RydOne", "address": "https://rpc-qie.rydone.xyz" },
+    { "provider": "OneNov", "address": "https://rpc.qie.onenov.xyz" }
   ],
   "grpc": [
-    { "provider": "RydOne", "address": "https://mainnet-grpc-qie.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://grpc-qie.rydone.xyz" }
   ],
   "evm": [
-    { "provider": "RydOne", "address": "https://mainnet-evm-qie.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "https://evm-qie.rydone.xyz" }
   ],
   "wss": [
-    { "provider": "RydOne", "address": "wss://mainnet-wss-qie.provewithryd.xyz" }
+    { "provider": "RydOne", "address": "wss://wss-qie.rydone.xyz" }
   ],
 
   "sdk_version": "0.50.7",
@@ -25,7 +25,7 @@
   "evm_chain_id": "1010",
   "min_tx_fee": "500",
   "addr_prefix": "qie",
-  "logo": "/logos/pushchain.jpg",
+  "logo": "/logos/qie.png",
 
   "assets": [
     {

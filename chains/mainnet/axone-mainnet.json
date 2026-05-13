@@ -2,13 +2,13 @@
   "chain_name": "axone-mainnet",
   "registry_name": "axone-mainnet",
   "api": [
-    { "provider": "Ryddd", "address": "https://api-axone.rydone.xyz" }
+    { "provider": "RydOne", "address": "https://api-axone.rydone.xyz" }
   ],
   "rpc": [
-    { "provider": "Ryddd", "address": "https://rpc-axone.rydone.xyz" }
+    { "provider": "RydOne", "address": "https://rpc-axone.rydone.xyz" }
   ],
   "grpc": [
-    { "provider": "Ryddd", "address": "https://grpc-axone.rydone.xyz" }
+    { "provider": "RydOne", "address": "https://grpc-axone.rydone.xyz" }
   ],
   "sdk_version": "0.50.7",
   "coin_type": "118",
